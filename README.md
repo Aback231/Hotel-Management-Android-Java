@@ -16,4 +16,4 @@ This app was developed in `Android native` environment using `Java`, with goal t
 
 ## Features
 
-The App supports multiple `Tennants` with multiple `Sign-up` and `Log-in methods`. Users can have various `roles`, with ability to do `QR` or `NFC tag` scan, receive work notifications, export to `Excel` or `PDF` formats. The crown jewl of this app is the implementation of a custom `Camera API`, with ability to `split screen in 2 parts`, with upper part showing camera feed, while an examle guide is shown in the lower part of the screen.
+The App supports multiple `tennants` with multiple `Sign-up` and `Log-in methods`. Users can have various `roles`, with ability to do `QR` or `NFC tag` scan, receive work notifications, export to `Excel` or `PDF` formats. The crown jewl of this app is the implementation of a custom `Camera API`, with ability to `split screen in 2 parts`, with upper part showing camera feed, while an examle guide is shown in the lower part of the screen.
