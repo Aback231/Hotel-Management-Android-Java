@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home_reports"
+        android:icon="@drawable/ic_report_black_24dp"
+        android:title="@string/damage_reports" />
+
+    <item
+        android:id="@+id/navigation_dashboard_reports"
+        android:icon="@drawable/ic_lost_and_found_blue"
+        android:title="@string/Lost_and_Found" />
+
+    <!--<item
+        android:id="@+id/navigation_notifications_reports"
+        android:icon="@drawable/ic_reception_blue"
+        android:title="@string/create_user_reception" />-->
+
+</menu>

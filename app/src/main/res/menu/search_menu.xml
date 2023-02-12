@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/Settings" android:id="@+id/settings"></item>
+    <item android:title="@string/Help" android:id="@+id/help"></item>
+    <item android:title="@string/About" android:id="@+id/about"></item>
+    <item android:title="@string/logout_menu" android:id="@+id/logout"></item>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        android:enabled="true"
+        android:visible="true"/>
+
+</menu>

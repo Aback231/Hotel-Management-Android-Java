@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+    <item android:title="@string/Settings" android:id="@+id/settings"></item>
+    <item android:id="@+id/user"
+        android:title="@string/User"/>
+    <item android:title="@string/Help" android:id="@+id/help"></item>
+    <item android:title="@string/About" android:id="@+id/about"></item>
+    <item android:title="@string/logout_menu" android:id="@+id/logout"></item>
+
+</menu>
