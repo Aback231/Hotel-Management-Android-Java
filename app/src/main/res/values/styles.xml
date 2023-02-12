@@ -1,0 +1,147 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">//// ** THE MOST IMPORTANT PART ** ////
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:statusBarColor" tools:targetApi="21">#fff</item>
+        <!--<item name="buttonStyle">@style/CustomButton</item>-->
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <!-- Base application theme NO ACTION BAR. -->
+    <style name="AppTheme_no_Actionbar" parent="Theme.MaterialComponents.Light.NoActionBar">//// ** THE MOST IMPORTANT PART ** ////
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">true</item>
+        <item name="android:statusBarColor" tools:targetApi="21">#fff</item>
+        <!--<item name="buttonStyle">@style/CustomButton</item>-->
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+    </style>
+
+    <!-- DARK THEME. -->
+    <style name="Dark_theme" parent="Theme.MaterialComponents">//// ** THE MOST IMPORTANT PART ** ////
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/google_toast</item>
+        <item name="colorPrimaryDark">@color/google_navbar_statusbar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/google_activity_background</item>
+        <item name="android:textAllCaps">false</item>
+        <!--<item name="android:background">#363636</item>-->  // THIS IS CAUSING WEIRD PANEL OVER COPY PANEL
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/google_navbar_statusbar</item>
+        <!--<item name="android:statusBarColor" tools:targetApi="21">@color/gray</item>-->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">17sp</item>
+        <!--<item name="buttonStyle">@style/CustomButton_bordo</item>-->
+        <!--<item name="android:windowLightStatusBar" tools:targetApi="23">true</item>-->
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="android:actionModeBackground">@color/colorPrimary_dark_svetlije</item>
+    </style>
+
+    <!-- DARK THEME NO ACTIONBAR. -->
+    <style name="Dark_theme_no_Actionbar" parent="Theme.MaterialComponents.NoActionBar">//// ** THE MOST IMPORTANT PART ** ////
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/google_toast</item>
+        <item name="colorPrimaryDark">@color/google_navbar_statusbar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/google_activity_background</item>
+        <item name="android:textAllCaps">false</item>
+        <!--<item name="android:background">#363636</item>-->  // THIS IS CAUSING WEIRD PANEL OVER COPY PANEL
+        <item name="android:navigationBarColor" tools:targetApi="21">#242424</item>
+        <!--<item name="android:statusBarColor" tools:targetApi="21">@color/gray</item>-->
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">17sp</item>
+        <!--<item name="buttonStyle">@style/CustomButton_bordo</item>-->
+        <!--<item name="android:windowLightStatusBar" tools:targetApi="23">true</item>-->
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="android:actionModeBackground">@color/colorPrimary_dark_svetlije</item>
+    </style>
+
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/custom_button</item>
+        <item name="android:textColor">@color/enabled_disabled_color</item>
+        <item name="android:stateListAnimator" tools:targetApi="21">@drawable/state_list_animator
+        </item>
+    </style>
+
+    <style name="CustomButton_bordo" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/custom_button_bordo</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:stateListAnimator" tools:targetApi="21">@drawable/state_list_animator
+        </item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AlertDialogThemeDark" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:buttonBarNegativeButtonStyle" tools:targetApi="21">@style/NegativeButtonStyle</item>
+        <item name="android:buttonBarPositiveButtonStyle" tools:targetApi="21">@style/PositiveButtonStyle</item>
+        <item name="android:buttonBarNeutralButtonStyle" tools:targetApi="21">@style/NeutralButtonStyle</item>
+            <item name="colorPrimaryDark">#242424</item>
+            <item name="colorAccent">@color/colorAccent</item>
+            <item name="android:textAllCaps">false</item>
+            <!--<item name="android:background">#363636</item>-->  // THIS IS CAUSING WEIRD PANEL OVER COPY PANEL
+            <item name="android:windowBackground">@color/colorPrimary_dark_svetlije</item>
+            <item name="android:textColor">@color/colorNav</item>
+            <item name="android:textColorPrimary">@color/White</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:buttonBarNegativeButtonStyle" tools:targetApi="21">@style/NegativeButtonStyle</item>
+        <item name="android:buttonBarPositiveButtonStyle" tools:targetApi="21">@style/PositiveButtonStyle</item>
+        <item name="android:buttonBarNeutralButtonStyle" tools:targetApi="21">@style/NeutralButtonStyle</item>
+    </style>
+
+    <style name="NegativeButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="PositiveButtonStyle" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:backgroundTint" tools:targetApi="21">@color/colorNav</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="NeutralButtonStyle"
+        parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="Theme.AppCompat.Light.DarkActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="GreenCheck">
+        <item name="colorAccent">#4CAF50</item>
+    </style>
+
+    <style name="ScrollbarRecyclerView" parent="android:Widget">
+        <item name="android:scrollbars">vertical</item>
+    </style>
+
+    <style name="HintTextSize" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+</resources>

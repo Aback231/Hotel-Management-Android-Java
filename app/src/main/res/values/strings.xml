@@ -1,0 +1,433 @@
+<resources>
+    <string name="tab_text_1" translatable="true">Cleaning</string>
+    <string name="tab_text_2" translatable="true">Damage</string>
+    <string name="exit" translatable="true">Please click BACK again to exit</string>
+    <string name="Language_selected" translatable="true">Selected Language</string>
+    <string name="Language" translatable="true">Language</string>
+    <string name="NFC_OFF" translatable="true">NFC is turned OFF, please enable it to proceed!</string>
+    <string name="Turn_On" translatable="true">Turn On</string>
+    <string name="Close" translatable="true">Close</string>
+    <string name="German" translatable="true">German</string>
+    <string name="Clear_selection" translatable="true">Clear selection</string>
+    <string name="Time_elapsed" translatable="true">Time for taking pictures elapsed!</string>
+    <string name="NFC_scan_start" translatable="true">Scan NFC to start celaning</string>
+    <string name="NFC_scan_end" translatable="true">Scan NFC when finished</string>
+    <string name="Manual_start" translatable="true">Select room to start cleaning</string>
+    <string name="Manual_end" translatable="true">Click when finished</string>
+    <string name="Manualy_Input" translatable="true">Manually Input Floor and Room, than click the same button to confirm, and start cleaning!</string>
+    <string name="Submit_success" translatable="true">Submit Successful</string>
+    <string name="Submit" translatable="true">Submit</string>
+    <string name="Add" translatable="true">Add</string>
+    <string name="Clear" translatable="true">Clear</string>
+    <string name="Job_assignment_cleared" translatable="true">Job assignment cleared</string>
+    <string name="edit_job_assignment" translatable="true">Edit Job Assignment</string>
+    <string name="select_new_user" translatable="true">Select new User to take over this Job.</string>
+    <string name="jobs_reasigned" translatable="true">Job assigned to selected User successfully</string>
+    <string name="orCreatePDF" translatable="true">or create PDF with assigned Job\'s.</string>
+    <string name="Create_PDF" translatable="true">Create PDF</string>
+    <string name="welcome_back" translatable="true">Welcome back</string>
+
+    <string name="Manual_input_room_doesnt_exist" translatable="true">Selected Room doesn\'t exist</string>
+    <string name="reports" translatable="true">Reports</string>
+    <string name="add_assign_job" translatable="true">Add</string>
+
+    <string name="check" translatable="true">Check</string>
+    <string name="Clean" translatable="true">Clean</string>
+    <string name="Dirty" translatable="true">Dirty</string>
+    <string name="Cleaned" translatable="true">Cleaned</string>
+    <string name="To_Be_Cleaned" translatable="true">To be cleaned</string>
+    <string name="image_marked_clean" translatable="true">Image marked clean</string>
+    <string name="image_marked_clean1" translatable="true">Images_marked_clean</string>
+    <string name="image_marked_dirty" translatable="true">Image marked dirty</string>
+    <string name="image_marked_dirty1" translatable="true">Images_marked_dirty</string>
+
+
+    <string name="Assign_employees">Assign employees</string>
+    <string name="Continue">Continue</string>
+    <string name="Create_user">Create new user</string>
+    <string name="orCreate_user">edit or create new user</string>
+    <string name="edit_user">Edit user</string>
+    <string name="selection_empty">Error: Selection empty!</string>
+    <string name="assign_room">Assign room</string>
+    <string name="lostFoundMessageHint">Enter lost items details and take a picture of the item.</string>
+
+    <string name="qrAssignMessage">Assign QR/NFC code to a room</string>
+    <string name="Tag_writen">NFC Tag writen!</string>
+    <string name="Tag_message">NFC Tag message</string>
+    <string name="Tag_message_write">Write message to NFC Tag</string>
+    <string name="Tag_not_writtable">NFC Tag is not writable!</string>
+    <string name="Tag_not_ndef">Tag is not ndef formatable!</string>
+
+    <string name="press_back_2x">Press back again to exit the app</string>
+    <string name="qr_dont_match">QR Scan 1 doesn\'t match QR Scan 2!</string>
+    <string name="nfc_dont_match">NFC Scan 1 doesn\'t match NFC Scan 2!</string>
+    <string name="logout">Logout Success</string>
+    <string name="upload">Upload</string>
+    <string name="submit">Submit</string>
+    <string name="take">Take</string>
+    <string name="images_to_go">more images at least!</string>
+    <string name="job_submited">Job result submitted</string>
+    <string name="floor">Floor</string>
+    <string name="Upload_Image">Upload Image</string>
+    <string name="room">Room</string>
+    <string name="menu">Menu</string>
+    <string name="Surname">Last name</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="qr_failed_time">QR-Scan failed!</string>
+    <string name="upload_date">Upload date</string>
+    <string name="upload_date1">Upload date: </string>
+    <string name="Time">Time: </string>
+    <string name="date">date</string>
+    <string name="Date">Date</string>
+    <string name="floor_room_empty1">floor and room fields can\'t be empty</string>
+    <string name="detailed_damage_overview">Detailed damage overview</string>
+    <string name="processing">Processing</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="new_ticket">New Ticket</string>
+
+    // ** ROOM ITEMS ARTICLES
+    <string name="radio1">Soap</string>
+    <string name="radio2">Hair shampoo</string>
+    <string name="radio3">Body shampoo</string>
+    <string name="radio4">Hairdryer</string>
+    <string name="radio5">Mirror bathroom</string>
+    <string name="radio6">racks</string>
+    <string name="radio7">Safe</string>
+    <string name="radio8">Duvet</string>
+    <string name="radio9">fitted sheets</string>
+    <string name="radio10">LCD TV</string>
+    <string name="radio11">Table lamp at the nightstand</string>
+    <string name="radio12">nightstand</string>
+    <string name="radio13">Curtains</string>
+    <string name="radio14">Desk/dresser</string>
+    <string name="radio15">Water heater</string>
+    <string name="radio16">mini-bar</string>
+    // ** ROOM ITEMS ARTICLES
+
+    // ** STARTER APPLICATION
+    <string name="hotel_name">Hotel name input</string>
+    <string name="hotel_just_name">Hotel name</string>
+    <string name="hotel_name_to_continue">Type in hotel name to continue</string>
+    <string name="hotel_name_doesnt_exist">hotel name doesn\'t exist!</string>
+
+    // ** STARTER APPLICATION
+
+    // ** MAIN
+    <string name="acc_only_type">Account type can only be admin or staff!</string>
+    <string name="user_edit_requiered">A username password and account type are required.</string>
+    <string name="snack_info">Click + to add new user, or select user to edit.</string>
+    <string name="snack_info1">Click the arrow to confirm selection.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_success">Login Success!</string>
+    <string name="login_try">Trying to login!</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="user_pass_dont_match_criteria">Username and password don\'t match criteria</string>
+    <string name="user_dont_match_criteria">Username doesn\'t match criteria</string>
+    <string name="pass_dont_match_criteria">Password doesn\'t match criteria</string>
+    <string name="user_and_pass_requiered">A username and password are required.</string>
+    <string name="signup">Signup</string>
+    <string name="signup_success">Signup Success!</string>
+    <string name="no_db_connection">no DB connection</string>
+    <string name="please">Please</string>
+
+    // ** MAIN
+
+    // ** MENU
+    <string name="Settings">Settings</string>
+    <string name="Help">Help</string>
+    <string name="About">About Us</string>
+    <string name="save_image">Save image</string>
+    <string name="share_image">Share image</string>
+    <string name="Search">Search</string>
+    <string name="logout_menu">Logout</string>
+    // ** MENU
+
+    // ** A1_3_DamageReports
+    <string name="damaged_article">Damaged article</string>
+    <string name="Lost_and_Found">Lost &amp; Found</string>
+    <string name="damage_reports">Damage Reports</string>
+    <string name="evaluation_export_to_excel">Evaluation - Export to Excel</string>
+    <string name="damage">Damage</string>
+    <string name="user">Username</string>
+    <string name="name">Name</string>
+    <string name="image_link">Image link</string>
+    <string name="date_reported">Date reported</string>
+    <string name="report_range">Report range: </string>
+    <string name="days">day(s)</string>
+    <string name="months">month(s)</string>
+    <string name="image_not_saved">Image not saved</string>
+    // ** A1_3_DamageReports
+
+    // ** activity_a1_5_4_1__employee__evaluation__detail
+    <string name="user_report">User report</string>
+    <string name="no_user_report">No reports for selected report range!</string>
+    <string name="no_damage_report">No damage reports for selected report range!</string>
+    <string name="eployee_evaluation">Employee Evaluation</string>
+    <string name="eployee_evaluation1">Employee_Evaluation</string>
+    <string name="cleaning_time">Room cleaning time: </string>
+    // ** activity_a1_5_4_1__employee__evaluation__detail
+
+    // ** activity_A1_5_3_Room_Cleaning_Period
+    <string name="set_floor_room">Floor and Room</string>
+    <string name="room_cleaning_period">Room Cleaning Evaluation</string>
+    <string name="room_cleaning_period1">Room_Cleaning_Period</string>
+    <string name="no_report_1">No cleaning reports</string>
+    <string name="no_report_2">for selected date range</string>
+    // ** activity_A1_5_3_Room_Cleaning_Period
+
+    // ** B1_User_Management
+    <string name="lost_found_submited">Lost item details submitted</string>
+    <string name="cancel">Cancel</string>
+    <string name="place">Place</string>
+    <string name="description">Description</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="no_room">No Room</string>
+    <string name="no_desc">No Description</string>
+    <string name="job_done">Job done.</string>
+    <string name="scan_qr_default">Scan QR-Code to start cleaning</string>
+    <string name="scan_qr_done">Scan QR-Code when done</string>
+    <string name="scan_qr_ok">QR scan successful!</string>
+    <string name="scan_nfc_ok">NFC scan successful!</string>
+    <string name="scan_qr_unsuccesfull">QR scan unsuccessful! Scanned QR doesn\'t exist in DB!</string>
+    <string name="scan_nfc_unsuccesfull">NFC scan unsuccessful! Scanned NFC doesn\'t exist in DB!</string>
+    <string name="report_damage">Report damage</string>
+    <string name="Room_Management">Room Management</string>
+    <string name="Room_Status">Room Status</string>
+    <string name="User">User</string>
+    <string name="Assign_Job">Assign Job</string>
+    <string name="Change_account_type">Change account type</string>
+    <string name="Change_password">Change password</string>
+    <string name="QR_Menu">QR/NFC Code Asign/Update</string>
+    <string name="Write_NFC_to_Tag">Write NFC Tag</string>
+    <string name="NFC_Write_Tag">Write NFC Tag</string>
+    <string name="cleaning_jobs_default">Cleaning Jobs</string>
+    <string name="room_doesnt_exist">Room doesn\'t exist</string>
+    <string name="cleaning_jobs_overview">Cleaning Jobs Overview</string>
+    <string name="cleaning_jobs_overview_no_jobs">No Cleaning Jobs at the moment</string>
+    <string name="upload_canceled">Upload Canceled!</string>
+    <string name="no_image_uploaded">No Image Uploaded!</string>
+    <string name="image_uploaded">Image has been Uploaded</string>
+    <string name="camera_permission_denied">Camera permission denied</string>
+    <string name="camera_permission_granted">Camera permission granted</string>
+    // ** B1_User_Management
+
+    // ** A1_1_RoomManagement
+    <string name="room_management">Room Management</string>
+    // ** A1_1_RoomManagement
+
+    // ** A1_2_Purchase
+    <string name="articles_loading">Articles loading!</string>
+    <string name="purchase">Tasks</string>
+    // ** A1_2_Purchase
+
+    // ** A1_4_User_Detail
+
+    <string name="ticket_solved">Ticket solved</string>
+    <string name="create_user_admin">Admin</string>
+    <string name="handed_over">Handed over</string>
+    <string name="create_user_staff">Staff</string>
+    <string name="create_user_supervisor">Supervisor</string>
+    <string name="create_user_reception">Reception</string>
+    <string name="create_user_technician">Technician</string>
+    <string name="create_user_minibarkeeper">Minibar keeper</string>
+    <string name="pleaseConfirm">Please confirm.</string>
+    <string name="currentPriority">Current Priority set to</string>
+
+    <string name="sent">Sent</string>
+    <string name="FilterTask">Filter Tasks</string>
+    <string name="all">All</string>
+
+    <string name="no_lost_items">No Lost Items reported!</string>
+    <string name="done">Done</string>
+    <string name="found">Found</string>
+    <string name="lost">Lost</string>
+    <string name="high">High</string>
+    <string name="low">Low</string>
+    <string name="select_technician">Select Technician to assign this ticket</string>
+    <string name="task_priority_changed">Task priority changed to:</string>
+    <string name="confirm_priority_change">Confirm priority change</string>
+    <string name="Priority">Priority</string>
+    <string name="task_message">Task message</string>
+    <string name="delegated_to">Delegated to:</string>
+    <string name="task">Task</string>
+    <string name="confirm">Confirm</string>
+    <string name="why_cancel_repair">Why the ticket can not be solved?</string>
+    <string name="declined">Declined</string>
+    <string name="no_jobs_defined">No Jobs defined</string>
+    <string name="change_priority">Change priority</string>
+    <string name="edit_task">Edit task</string>
+    <string name="reassign_task">Reassign task</string>
+    <string name="selectPriority">Select task priority</string>
+    <string name="selectUser">Select user</string>
+    <string name="selectUserType">Select user type</string>
+    <string name="selectFloorRoom">Select floor and room</string>
+
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+
+    <string name="departure_room">Departure room</string>
+    <string name="bleiber_room">Bleiber room</string>
+    <string name="ronder_cleaning">Ronder cleaning</string>
+
+    <string-array name="dates">
+        <item>@string/today</item>
+        <item>@string/tomorrow</item>
+    </string-array>
+
+    <string-array name="priority">
+        <item>@string/high</item>
+        <item>@string/low</item>
+    </string-array>
+
+    <string-array name="cleaning_type">
+        <item>@string/departure_room</item>
+        <item>@string/bleiber_room</item>
+        <item>@string/ronder_cleaning</item>
+    </string-array>
+
+    <string-array name="create_user">
+        <item>@string/create_user_admin</item>
+        <item>@string/create_user_staff</item>
+        <item>@string/create_user_supervisor</item>
+        <item>@string/create_user_reception</item>
+        <item>@string/create_user_technician</item>
+        <item>@string/create_user_minibarkeeper</item>
+    </string-array>
+
+    <string-array name="lost_and_found_item_states">
+        <item>@string/sent</item>
+        <item>@string/found</item>
+        <item>@string/lost</item>
+    </string-array>
+
+    // ** A1_4_User_Detail
+
+    // ** A1_5_5
+    <string name="qr_assignment">QR Code Assignment</string>
+    <string name="doesnt_exist">doesn\'t exist!</string>
+    <string name="empty_fields">empty fields not allowed!</string>
+    <string name="qr_assign_ok">Success QR code for floor</string>
+    <string name="Saved">Saved</string>
+    <string name="updated">updated!</string>
+    <string name="updating_qr">Floor and room match, updating QR code!</string>
+    <string name="error_qr_exist">QR code already exists!</string>
+
+    // ** A1_5_5
+
+    // ** T1_Technician
+    <string name="technician1">technician1</string>
+    // ** T1_Technician
+
+    // ** A1_5_4_Employee_Evaluation
+    <string name="Employee_Evaluation">Employee Evaluation</string>
+    <string name="users_loading">Users loading...</string>
+    // ** A1_5_4_Employee_Evaluation
+
+    // ** A1_5_4_1_Employee_Evaluation_Detail
+    <string name="months_error">months field must be lower than 12!</string>
+    <string name="days_error">days field must be lower than 365!</string>
+    <string name="reloading">Loading...</string>
+    <string name="excel_created_download">Excel file created in Download folder.</string>
+
+    // ** A1_5_4_1_Employee_Evaluation_Detail
+
+    // ** A1_4_User_DetailActivity
+
+    <string name="user_type_not_changed">Nothing to do. Account type was already</string>
+    <string name="no_users_acc_type">No Users with selected Account type</string>
+    <string name="Yes">Yes</string>
+    <string name="empty">empty</string>
+    <string name="No">No</string>
+    <string name="User_editor">User editor</string>
+    <string name="job_description">Job description</string>
+    <string name="job_assignment">Job Assignment</string>
+    <string name="job_assignment1">Job_Assignment</string>
+    <string name="pdfSavedDownloads">PDF Saved to Downloads</string>
+    <string name="job_assignment_ok">Job Assignment successful</string>
+    <string name="job_accType_ok">Account type change success for user:</string>
+    <string name="job_pass_ok">Password reset success for user:</string>
+    <string name="job_error_pass_criteria">Password doesn\'t match criteria</string>
+    <string name="job_error_empty_user">empty password is not allowed!</string>
+    <string name="text_field_empty">Message field can not be empty!</string>
+    <string name="job_confirm_pass">Confirm password</string>
+    <string name="job_confirm_action">Confirm Your action</string>
+    <string name="job_error_check_input">password, not confirmed. Check Your input!</string>
+    <string name="job_confirm_type_change">Click Yes to change selected user\'s account type.</string>
+    <string name="job_message">Input Job details, and click Yes to confirm. Floor and Room fields can\'t be empty!</string>
+    <string name="job_message1">Type your password and click Yes to change selected user\'s account password.</string>
+
+    // ** A1_4_User_DetailActivity
+
+    // ** A1_4_User_Create_New_User
+    <string name="CANCEL">CANCEL</string>
+    <string name="task_submitted">Task submitted</string>
+    <string name="Add_user">Add user</string>
+    // ** A1_4_User_Create_New_User
+
+    // ** A1_4_User_Choose
+    <string name="to_manage">You wish to manage</string>
+    <string name="Users">Users</string>
+    <string name="choose_acc_type">Choose Account Type</string>
+    // ** A1_4_User_Choose
+
+    // ** A1_4_User
+    <string name="user_created">New user created!</string>
+    <string name="trying_to_login">Trying to login!</string>
+    // ** A1_4_User
+
+    // ** A1_1_1_2_3_Selected_Room_Damage_DetailActivity
+    <string name="choose_option">Choose your option</string>
+    <string name="uploaded_by">Uploaded by</string>
+    <string name="at">at</string>
+    <string name="image_saved_to_downloads">Image Saved to Download folder.</string>
+    // ** A1_1_1_2_3_Selected_Room_Damage_DetailActivity
+
+    // ** A1_1_1_2_0_Selected_Room_Damage_Overview_Frag2
+    <string name="no_damage_7_days">No damages in this room in past 7 days!</string>
+    <string name="images_loading">Images loading...</string>
+    <string name="Uploaded_Today">Uploaded Today</string>
+    <string name="Uploaded_">Uploaded</string>
+    <string name="day_ago">day ago</string>
+    <string name="days_ago">days ago</string>
+    <string name="no_image_7_days">No cleaning images for this room in past 7 days!</string>
+    <string name="no_tasks_assigned">No Tasks were assigned in the past</string>
+    <string name="no_tasks_tech">No Tasks</string>
+
+    <string name="no_tasks_assigned2">""</string>
+
+    // ** A1_1_1_2_0_Selected_Room_Damage_Overview_Frag2
+
+    // ** A1_1_1_1_2_Selected_Room_Cleaning_Overview_DetailActivity
+    <string name="cleaning_time_1">Cleaning time</string>
+    <string name="detail_cleaning">Detailed cleaning overview</string>
+    <string name="is_cleaning_currently">is cleaning this room currently</string>
+    // ** A1_1_1_1_2_Selected_Room_Cleaning_Overview_DetailActivity
+
+    // ** A1_6_AdminManagement_Room_Status
+    <string name="clean_now">Room is being cleaned right now</string>
+    <string name="is_now">" is being cleaned right now."</string>
+    <string name="has_been"> has been cleaned today.</string>
+    <string name="clean_start">Cleaning start: </string>
+    <string name="clean_today">Room has been cleaned today.</string>
+    <string name="clean_done">Cleaning done: </string>
+    <string name="room_status">Room Status</string>
+    <string name="new_job">New Job</string>
+    <string name="no_cleaning_conducted_today">No cleaning conducted today</string>
+    <string name="room_status_loading">Room status loading...</string>
+    // ** A1_6_AdminManagement_Room_Status
+
+    // ** A1_5_4_1_Employee_Evaluation
+    <string name="employee_evaluation">Employee Evaluation</string>
+    <string name="acc_type">Account type: </string>
+    <string name="cleaningType">Cleaning Type</string>
+    <string name="title_activity_a1_2__tasks__bottom__navigation">A1_2_Tasks_Bottom_Navigation
+    </string>
+    <string name="title_home">Tasklist</string>
+    <string name="title_dashboard">Create Task</string>
+    <string name="title_notifications">Notifications</string>
+
+    // ** A1_5_4_1_Employee_Evaluation
+
+</resources>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="radio1">Seife</string>
+    <string name="radio10" translatable="false">LCD Fehrnseher</string>
+    <string name="radio11" translatable="false">Tischlampe am Nachtkästchen</string>
+    <string name="radio12">Nachtkästchen</string>
+    <string name="radio13">Vorhänge</string>
+    <string name="radio14">Schreibtisch/Kommode</string>
+    <string name="radio15">Wasserkocher</string>
+    <string name="radio16">Minibar</string>
+    <string name="radio2">Hair shampoo</string>
+    <string name="radio3">Body shampoo</string>
+    <string name="radio4">Föhn</string>
+    <string name="radio5">Spiegel Badezimmer</string>
+    <string name="radio6">Kleiderbügel</string>
+    <string name="radio7">Tresor</string>
+    <string name="radio8">Bettdecke</string>
+    <string name="radio9">Spannleintücher</string>
+    <string name="damaged_article">Beschädigter Artikel</string>
+    <string name="floor">Stock</string>
+    <string name="room">Zimmer</string>
+    <string name="damage_reports">Schadensmeldungen</string>
+    <string name="evaluation_export_to_excel">Auswertung - Export nach Excel</string>
+    <string name="damage">Beschädigung</string>
+    <string name="date_reported">Datum der Meldung</string>
+    <string name="user">Benutzername</string>
+    <string name="image_link">Bildlink</string>
+    <string name="upload_date">Datum des Hochladens</string>
+    <string name="detailed_damage_overview">Schadensübersicht</string>
+    <string name="date">datum</string>
+    <string name="months">Monat(e)</string>
+    <string name="days">Tag(e)</string>
+    <string name="report_range">Datumsbereich:</string>
+    <string name="cleaning_time">"Raumreinigungszeit: "</string>
+    <string name="user_report">Benutzerbericht</string>
+    <string name="eployee_evaluation">Arbeiter Bewertung</string>
+    <string name="eployee_evaluation1">Arbeiter_Bewertung</string>
+    <string name="no_user_report">Keine Berichte für ausgewählten Berichtsbereich!</string>
+    <string name="no_damage_report">Keine Schadensberichte für ausgewählten Berichtsbereich!</string>
+    <string name="set_floor_room">Stock und Zimmer</string>
+    <string name="room_cleaning_period">Zimmer Bewertung</string>
+    <string name="room_cleaning_period1">"Zimmerreinigung_Zeitraum "</string>
+    <string name="Date">Datum</string>
+    <string name="ronder_cleaning">Sonder Reinigung</string>
+    <string name="departure_room">Abreise Zimmer</string>
+    <string name="bleiber_room">Bleiber Zimmer</string>
+    <string name="today">Heute</string>
+    <string name="tomorrow">Morgen</string>
+    <string name="scan_qr_default">QR-Code Scannen, um die Reinigung zu starten</string>
+    <string name="report_damage">Schadensmeldung</string>
+    <string name="cleaning_jobs_default">Reinigungsjobs</string>
+    <string name="scan_qr_done">"QR-Code Scannen, wenn fertig "</string>
+    <string name="scan_qr_unsuccesfull">"Gescannter QR existiert nicht in der DB! "</string>
+    <string name="scan_qr_ok">QR-Scan erfolgreich</string>
+    <string name="room_doesnt_exist">Zimmer existiert nicht</string>
+    <string name="logout">"Abmelden erfolgreich "</string>
+    <string name="cleaning_jobs_overview">Reinigung Jobs Übersicht</string>
+    <string name="cleaning_jobs_overview_no_jobs">Keine Reinigung Jobs im Moment</string>
+    <string name="upload_canceled">Hochladen Abgebrochen!</string>
+    <string name="image_uploaded">Bild wurde hochgeladen</string>
+    <string name="camera_permission_denied">Kameraerlaubnis verweigert</string>
+    <string name="camera_permission_granted">Kameraerlaubnis erteilt</string>
+    <string name="processing">Verarbeitung</string>
+    <string name="please_wait">Bitte warten...</string>
+    <string name="no_image_uploaded">Kein Bild hochgeladen!</string>
+    <string name="hotel_name">Eingabe des Hotelnamens</string>
+    <string name="hotel_name_to_continue">Geben Sie den Namen des Hotels ein, um fortzufahren</string>
+    <string name="hotel_just_name">Hotel Name</string>
+    <string name="hotel_name_doesnt_exist">Hotelname existiert nicht!</string>
+    <string name="login">Einloggen</string>
+    <string name="no_internet">Keine Internetverbindung</string>
+    <string name="user_pass_dont_match_criteria">Benutzername und Passwort stimmen nicht mit den Kriterien überein!</string>
+    <string name="user_dont_match_criteria">Benutzername entspricht nicht den Kriterien!</string>
+    <string name="pass_dont_match_criteria">Passwort entspricht nicht den Kriterien!</string>
+    <string name="user_and_pass_requiered">Ein Benutzername und ein Passwort sind erforderlich.</string>
+    <string name="signup">Anmelden</string>
+    <string name="no_db_connection">"keine DB-Verbindung "</string>
+    <string name="please">Bitte</string>
+    <string name="login_success">Einloggen erfolgreich!</string>
+    <string name="login_try">Einloggen Versuch!</string>
+    <string name="signup_success">Anmeldeerfolg!</string>
+    <string name="username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="Settings">Einstellungen</string>
+    <string name="Help">Hilfe</string>
+    <string name="About">Über uns</string>
+    <string name="save_image">Bild speichern</string>
+    <string name="share_image">Bild teilen</string>
+    <string name="Search">Suchen</string>
+    <string name="logout_menu">Abmelden</string>
+    <string name="job_done">Job erledigt.</string>
+    <string name="clean_now">"Das Zimmer wird gerade gereinigt "</string>
+    <string name="clean_start">"Reinigungsbeginn: "</string>
+    <string name="clean_today">Das Zimmer wurde heute gereinigt.</string>
+    <string name="clean_done">"Reinigung beendet: "</string>
+    <string name="room_status">Zimmerstatus</string>
+    <string name="is_now">" wird gerade gereinigt."</string>
+    <string name="has_been">" wurde heute gereinigt."</string>
+    <string name="employee_evaluation">Mitarbeiter Bewertung</string>
+    <string name="acc_type">"Konto Typ: "</string>
+    <string name="cleaningType">"Reinigungsart "</string>
+    <string name="qr_dont_match">QR-Scan 1 stimmt nicht mit QR-Scan 2 überein!</string>
+    <string name="press_back_2x">Drücken Sie erneut zurück, um die App zu beenden</string>
+    <string name="tab_text_1">Reinigung</string>
+    <string name="tab_text_2">Schaden</string>
+    <string name="room_management">Zimmer Management</string>
+    <string name="articles_loading">Artikel werden geladen!</string>
+    <string name="purchase">Aufgaben</string>
+    <string name="qr_failed_time">QR-Scan fehlgeschlagen!</string>
+    <string name="no_report_1">"Keine Reinigungsberichte "</string>
+    <string name="no_report_2">für ausgewählten Zeitraum</string>
+    <string name="menu">Menü</string>
+    <string name="dark_theme">Dunkles Thema</string>
+    <string name="new_job">Neuer Job</string>
+    <string name="room_status_loading">Zimmerstatus wird geladen ...</string>
+    <string name="no_cleaning_conducted_today">Keine Reinigung durchgeführt heute</string>
+    <string name="qr_assignment">QR-Code-Zuweisung</string>
+    <string name="doesnt_exist" translatable="false">existiert nicht!</string>
+    <string name="empty_fields" translatable="false">"leere Felder nicht erlaubt! "</string>
+    <string name="qr_assign_ok" translatable="false">Erfolg QR-Code für Stock</string>
+    <string name="users_loading" translatable="false">Benutzer laden ...</string>
+    <string name="updating_qr" translatable="false">Stock und Zimmer stimmen überein, Aktualisierung des QR-Codes!</string>
+    <string name="updated" translatable="false">Aktualisiert!</string>
+    <string name="error_qr_exist" translatable="false">QR-Code existiert bereits!</string>
+    <string name="Saved" translatable="false">Gespeichert</string>
+    <string name="Employee_Evaluation" translatable="false">Mitarbeiter Bewertung</string>
+    <string name="months_error" translatable="false">"Das Monatsfeld muss kleiner als 12 sein! "</string>
+    <string name="days_error" translatable="false">Tage Feld muss kleiner als 365 sein!</string>
+    <string name="reloading" translatable="false">Wird geladen...</string>
+    <string name="excel_created_download" translatable="false">"Excel-Datei im Download-Ordner erstellt. "</string>
+    <string name="at" translatable="false">um</string>
+    <string name="Add_user" translatable="false">Benutzer hinzufügen</string>
+    <string name="CANCEL" translatable="false">ABBRECHEN</string>
+    <string name="No" translatable="false">Nein</string>
+    <string name="Uploaded_" translatable="false">Hochgeladen</string>
+    <string name="Uploaded_Today" translatable="false">Heute hochgeladen</string>
+    <string name="User_editor" translatable="false">Benutzereditor</string>
+    <string name="Users" translatable="false">Benutzer</string>
+    <string name="Yes" translatable="false">Ja</string>
+    <string name="acc_only_type" translatable="false">Kontotyp kann nur admin oder staff sein!</string>
+    <string name="choose_acc_type" translatable="false">Wählen Sie einen</string>
+    <string name="choose_option" translatable="false">Wählen Sie Ihre Option</string>
+    <string name="cleaning_time_1" translatable="false">Reinigungszeit</string>
+    <string name="day_ago" translatable="false">Tag zuvor</string>
+    <string name="days_ago" translatable="false">Tagen zuvor</string>
+    <string name="detail_cleaning" translatable="false">Detaillierte Übersicht</string>
+    <string name="image_saved_to_downloads" translatable="false">Bild im Download-Ordner gespeichert.</string>
+    <string name="images_loading" translatable="false">Bilder werden geladen ...</string>
+    <string name="job_accType_ok" translatable="false">Erfolgreiche Änderung des Kontotyps für den Benutzer:</string>
+    <string name="job_assignment" translatable="false">Job Zuweisung</string>
+    <string name="job_assignment_ok" translatable="false">Job Zuweisung erfolgreich</string>
+    <string name="job_confirm_action" translatable="false">Bestätigen Sie Ihre Aktion</string>
+    <string name="job_confirm_pass" translatable="false">Passwort bestätigen</string>
+    <string name="job_confirm_type_change" translatable="false">Klicken Sie auf Ja, um den Kontotyp des ausgewählten Benutzers zu ändern.</string>
+    <string name="job_description" translatable="false">Job Beschreibung</string>
+    <string name="job_error_check_input" translatable="false">Passwort, nicht bestätigt. Überprüfen Sie Ihre Eingaben!</string>
+    <string name="job_error_empty_user" translatable="false">leeres Passwort ist nicht erlaubt!</string>
+    <string name="job_error_pass_criteria" translatable="false">Passwort entspricht nicht den Kriterien</string>
+    <string name="job_message" translatable="false">Geben Sie die Auftragsdetails ein und klicken Sie zur Bestätigung auf Ja. Stock- und Zimmerfelder dürfen nicht leer sein!</string>
+    <string name="job_message1" translatable="false">Geben Sie Ihr Kennwort ein und klicken Sie auf Ja, um das Kennwort des ausgewählten Benutzerkontos zu ändern.</string>
+    <string name="job_pass_ok" translatable="false">Erfolgreiches Zurücksetzen des Passworts für den Benutzer:</string>
+    <string name="no_damage_7_days" translatable="false">Keine Schäden in diesem Raum in den letzten 7 Tagen!</string>
+    <string name="no_image_7_days" translatable="false">Keine Reinigungsbilder für diesen Raum in den letzten 7 Tagen!</string>
+    <string name="snack_info">Klicken Sie auf + um neue Benutzer hinzuzufügen, oder wählen Sie einen zum Bearbeiten aus.</string>
+    <string name="to_manage" translatable="false">zu verwaltenden Kontotyp</string>
+    <string name="trying_to_login" translatable="false">Versuchen sich anzumelden!</string>
+    <string name="uploaded_by" translatable="false">Hochgeladen von</string>
+    <string name="user_created" translatable="false">Neuer Benutzer erstellt!</string>
+    <string name="user_edit_requiered">Ein Benutzername, ein Passwort und ein Kontotyp sind erforderlich.</string>
+    <string name="Surname">Nachname</string>
+    <string name="Assign_Job">Job zuweisen</string>
+    <string name="Change_account_type" translatable="false">Kontotyp ändern</string>
+    <string name="Change_password" translatable="false">Passwort ändern</string>
+    <string name="QR_Menu" translatable="false">QR/NFC Code zuweisen / aktualisieren</string>
+    <string name="Room_Management" translatable="false">"Zimmerverwaltung "</string>
+    <string name="Room_Status" translatable="false">Zimmerstatus</string>
+    <string name="Time" translatable="false">"Zeit: "</string>
+    <string name="Upload_Image" translatable="false">Bild hochladen</string>
+    <string name="User" translatable="false">Benutzer</string>
+    <string name="upload_date1">"Datum des Hochladens: "</string>
+    <string name="floor_room_empty1">Stock- und Raumfelder dürfen nicht leer sein</string>
+    <string name="upload">Laden Sie noch</string>
+    <string name="images_to_go">Bilder zumindest!</string>
+    <string name="job_submited">Job Ergebnis übermittelt</string>
+    <string name="submit">Einsenden</string>
+    <string name="take">Machen Sie noch</string>
+    <string name="exit">Bitte klicken Sie erneut auf ZURÜCK, um den Vorgang zu beenden</string>
+    <string name="Language">Sprache</string>
+    <string name="Language_selected">Ausgewählte Sprache</string>
+    <string name="NFC_OFF">"NFC ist ausgeschaltet, bitte aktivieren Sie es, um fortzufahren! "</string>
+    <string name="Turn_On">Einschalten</string>
+    <string name="Close">Schließen</string>
+    <string name="Time_elapsed">Die Zeit zum Fotografieren ist abgelaufen!</string>
+    <string name="NFC_scan_start">Scannen Sie NFC, um mit der Reinigung zu beginnen</string>
+    <string name="NFC_scan_end">Scannen Sie NFC, wenn Sie fertig sind</string>
+    <string name="Manual_start">Wählen Sie Zimmer aus, um mit der Reinigung zu beginnen</string>
+    <string name="Manual_end">Klicken Sie, wenn Sie fertig sind</string>
+    <string name="nfc_dont_match">NFC Scan 1 stimmt nicht mit NFC Scan 2 überein!</string>
+    <string name="scan_nfc_ok">NFC-Scan erfolgreich!</string>
+    <string name="scan_nfc_unsuccesfull">NFC-Scan nicht erfolgreich! Gescannter NFC existiert in DB nicht!</string>
+    <string name="NFC_Write_Tag">NFC-Tag Schreiben</string>
+    <string name="Write_NFC_to_Tag">NFC-Tag Schreiben</string>
+    <string name="German">Deutsch</string>
+    <string name="Manualy_Input">Geben Sie Stock und Zimmer manuell ein, klicken Sie zur Bestätigung auf dieselbe Button und beginnen Sie mit der Reinigung!</string>
+    <string name="Clear_selection">Auswahl löschen</string>
+    <string name="Tag_writen">NFC Tag geschrieben!</string>
+    <string name="Tag_not_ndef">"Tag ist nicht ndef formatierbar! "</string>
+    <string name="Tag_not_writtable">"NFC-Tag ist nicht beschreibbar! "</string>
+    <string name="Assign_employees">Mitarbeiter zuweisen</string>
+    <string name="Continue">Weiter</string>
+    <string name="snack_info1">Klicken Sie auf den Pfeil, um die Auswahl zu bestätigen</string>
+    <string name="Create_user">"Neuen Mitarbeiter erstellen "</string>
+    <string name="orCreate_user">"bearbeiten oder Neuen Mitarbeiter erstellen "</string>
+    <string name="edit_user">"Mitarbeiter bearbeiten "</string>
+    <string name="selection_empty">"Fehler: Auswahl leer! "</string>
+    <string name="assign_room">Zimmer zuweisen</string>
+    <string name="Submit_success">Erfolgreich einreichen</string>
+    <string name="Add">Hinzufügen</string>
+    <string name="Clear">Löschen</string>
+    <string name="Job_assignment_cleared">Job vergabe gelöscht</string>
+    <string name="Submit">Absenden</string>
+    <string name="edit_job_assignment">Jobzuweisung bearbeiten</string>
+    <string name="select_new_user">"Wählen Sie einen neuen Mitarbeiter aus, um diesen Job zu übernehmen. "</string>
+    <string name="jobs_reasigned">"Job erfolgreich dem ausgewählten Mitarbeiter zugewiesen "</string>
+    <string name="orCreatePDF">oder erstellen Sie PDF mit zugewiesenen Jobs.</string>
+    <string name="Create_PDF">PDF erstellen</string>
+    <string name="pdfSavedDownloads">PDF zum Herunterladen gespeichert</string>
+    <string name="job_assignment1">Job_Zuweisung</string>
+    <string name="Clean">Sauber</string>
+    <string name="Dirty">Schmutzig</string>
+    <string name="check">Überprüfen</string>
+    <string name="Cleaned">Gereinigt</string>
+    <string name="To_Be_Cleaned">Zu reinigen</string>
+    <string name="image_marked_clean">Bild markiert sauber</string>
+    <string name="image_marked_dirty">Bild markiert schmutzig</string>
+    <string name="image_marked_clean1">Bilder markiert sauber</string>
+    <string name="image_marked_dirty1">Bilder markiert schmutzig</string>
+    <string name="Manual_input_room_doesnt_exist">Zimmer existiert nicht in DB</string>
+    <string name="create_user_admin">Admin</string>
+    <string name="create_user_staff">Mitarbeiter</string>
+    <string name="create_user_supervisor">Supervisor</string>
+    <string name="create_user_reception">Rezeption</string>
+    <string name="create_user_technician">Techniker</string>
+    <string name="create_user_minibarkeeper">Minibar keeper</string>
+    <string name="user_type_not_changed">"Nichts zu tun. Kontotyp war bereits "</string>
+    <string name="technician1">technician1</string>
+    <string name="no_users_acc_type">"Keine Benutzer mit ausgewähltem Kontotyp "</string>
+    <string name="empty">leer</string>
+    <string name="title_dashboard">Task erstellen</string>
+    <string name="title_home">Tasklist</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_a1_2__tasks__bottom__navigation">"A1_2_Tasks_Bottom_Navigation     "</string>
+    <string name="reports">Meldungen</string>
+    <string name="Lost_and_Found">Lost &amp; Found</string>
+    <string name="place">Ort</string>
+    <string name="description">Beschreibung</string>
+    <string name="take_photo">Foto machen</string>
+    <string name="no_room">Kein Zimmer</string>
+    <string name="no_desc">Keine Beschreibung</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="lost_found_submited">Details zu verlorenen Gegenständen übermittelt</string>
+    <string name="sent">Versendet</string>
+    <string name="found">Gefunden</string>
+    <string name="lost">Verloren</string>
+    <string name="no_lost_items">"Keine verlorenen Gegenstände gemeldet! "</string>
+    <string name="handed_over">Übergeben</string>
+    <string name="ticket_solved">Ticket gelöst</string>
+    <string name="high">Hoch</string>
+    <string name="low">Niedrig</string>
+    <string name="task_message">Aufgabe Nachricht</string>
+    <string name="text_field_empty">Nachrichtenfeld darf nicht leer sein!</string>
+    <string name="task_submitted">Aufgabe eingereicht</string>
+    <string name="task_priority_changed">Die Aufgabenpriorität wurde geändert auf:</string>
+    <string name="confirm_priority_change">Bestätigen Prioritätsänderung</string>
+    <string name="done">Erledigt</string>
+    <string name="select_technician">Wählen Sie Techniker, um dieses Ticket zuzuweisen</string>
+    <string name="new_ticket">Neues Ticket</string>
+    <string name="Priority">Priorität</string>
+    <string name="delegated_to">Delegiert:</string>
+    <string name="task">Aufgabe</string>
+    <string name="confirm">Bestätigen</string>
+    <string name="why_cancel_repair">Warum das Ticket nicht gelöst werden kann?</string>
+    <string name="declined">Abgelehnt</string>
+    <string name="no_jobs_defined">Keine Jobs definiert</string>
+    <string name="change_priority">Priorität ändern</string>
+    <string name="edit_task">Aufgabe bearbeiten</string>
+    <string name="reassign_task">Aufgabe neu zuweisen</string>
+    <string name="selectPriority">Aufgabenpriorität auswählen</string>
+    <string name="selectUser">Benutzer auswählen</string>
+    <string name="selectUserType">Benutzertyp auswählen</string>
+    <string name="selectFloorRoom">Zimmer und Raum auswählen</string>
+    <string name="is_cleaning_currently">reinigt zur Zeit diesen Raum</string>
+    <string name="pleaseConfirm">Bitte bestätigen.</string>
+    <string name="currentPriority">Aktuelle Priorität eingestellt auf</string>
+    <string name="FilterTask">Aufgaben filtern</string>
+    <string name="all">Alles</string>
+    <string name="welcome_back">Willkommen zurück</string>
+    <string name="image_not_saved">Bild nicht gespeichert</string>
+    <string name="Tag_message">NFC Tag Nachricht</string>
+    <string name="Tag_message_write">Nachricht an NFC-Tag schreiben</string>
+    <string name="qrAssignMessage">Weisen Sie einem Raum den QR / NFC-Code zu</string>
+    <string name="lostFoundMessageHint">Geben Sie Details zu verlorenen Gegenständen ein und machen Sie ein Foto des Gegenstands.</string>
+    <string name="name">Name</string>
+    <string name="add_assign_job">Hinzufügen</string>
+    <string name="no_tasks_assigned">In den letzten</string>
+    <string name="no_tasks_assigned2">wurden keine Aufgaben zugewiesen</string>
+    <string name="no_tasks_tech">Keine Aufgaben</string>
+</resources>
