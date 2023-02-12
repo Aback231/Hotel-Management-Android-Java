@@ -1,0 +1,111 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "com.example.hotel"
+        minSdkVersion 19
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 1
+        versionName "1.2.17"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    implementation 'com.google.firebase:firebase-analytics:17.2.1'
+    implementation 'com.google.firebase:firebase-messaging:20.0.1'
+    implementation 'androidx.vectordrawable:vectordrawable:1.0.1'
+    implementation 'androidx.navigation:navigation-fragment:2.0.0'
+    implementation 'androidx.navigation:navigation-ui:2.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    //implementation 'com.parse.bolts:bolts-tasks:1.4.0'
+    //implementation 'com.parse:parse-android:1.13.0'
+    //implementation 'com.google.android.gms:play-services:12.0.1'
+    implementation 'com.android.support:multidex:1.0.3'
+
+
+    // QR CODE
+    implementation 'com.google.zxing:core:3.2.1'
+    implementation 'com.journeyapps:zxing-android-embedded:3.2.0@aar'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    // QR CODE
+    // Picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.android.support:recyclerview-v7:28.1.0'
+    implementation 'com.android.support:cardview-v7:28.1.0'
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+    // Picasso
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    implementation 'com.github.bumptech.glide:okhttp3-integration:4.4.0'
+    //Glide
+
+    // Recycler VIEW ROOM
+    def room_version = "2.2.1"
+    def lifecycle_version = "2.1.0"
+    implementation "androidx.room:room-runtime:$room_version"
+    //annotationProcessor "androidx.room:room-compiler:$room_version"
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"
+    annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version"
+    implementation 'androidx.recyclerview:recyclerview-selection:1.0.0'
+    implementation 'org.jetbrains:annotations-java5:15.0'
+    // Recycler VIEW ROOM
+    // EXCEL
+    implementation 'net.sourceforge.jexcelapi:jxl:2.6.12'
+    // EXCEL
+    // CALENDAR RANGE PICKER
+    implementation 'com.squareup:android-times-square:1.6.5@aar'
+    // CALENDAR RANGE PICKER
+    // EASY SPLASH SCREEN
+    //implementation 'gr.pantrif:easy-android-splash-screen:0.0.1'
+    // EASY SPLASH SCREEN
+    // PARSE SERVER
+    implementation "com.github.parse-community.Parse-SDK-Android:parse:1.22.1"
+    // PARSE SERVER
+    // PARSE PUSH NOTIFICATIONS for FCM Push support
+    implementation "com.github.parse-community.Parse-SDK-Android:fcm:1.22.1"
+    // PARSE PUSH NOTIFICATIONS for FCM Push support
+    // PDF
+    implementation 'com.itextpdf:itext7-core:7.1.10'
+    implementation 'com.itextpdf:itext-pdfa:5.5.9'
+    implementation 'com.itextpdf:io:7.1.10'
+    implementation 'com.itextpdf:kernel:7.1.10'
+    implementation 'com.itextpdf:layout:7.1.10'
+    // PDF
+    // Alerter
+    implementation 'com.tapadoo.android:alerter:2.0.0'
+}
+repositories {
+    mavenCentral()
+}
