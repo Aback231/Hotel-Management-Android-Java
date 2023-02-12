@@ -4,9 +4,11 @@
 
 <img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/evaluation_export.jpeg" width="240" height="500"> <img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/settings.jpeg" width="240" height="500">
 
-<img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/evaluation_export.jpeg" width="240" height="500"> <img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/settings.jpeg" width="240" height="500">
+<img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/check.jpeg" width="240" height="500"> <img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/lost.jpeg" width="240" height="500">
 
-<img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/evaluation_export.jpeg" width="240" height="500"> <img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/settings.jpeg" width="240" height="500">
+<img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/work.jpeg" width="240" height="500"> <img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/work_done.jpeg" width="240" height="500">
+
+<img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/floor.jpeg" width="240" height="500"> <img src="https://github.com/Aback231/Hotel-Management-Android-Java/blob/main/assign_room.jpeg" width="240" height="500">
 
 ## Description
 
