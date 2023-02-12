@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hotel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- <uses-permission android:name="android.permission.GET_ACCOUNTS" /> -->
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <permission
+        android:name="com.package.name.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.package.name.permission.C2D_MESSAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name=".StarterApplication"
+        android:allowBackup="true"
+        android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+        android:icon="@mipmap/hotel_new_full_asset_foreground"
+        android:label="Hotel"
+        android:resizeableActivity="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".A1_2_Tasks_Bottom_Navigation_TaskList_Detail_T_D_Undone"></activity>
+        <activity android:name=".A1_2_Tasks_Bottom_Navigation_TaskList_Detail_T_Damage_Done" />
+        <activity android:name=".A1_2_Tasks_Bottom_Navigation_TaskList_Detail_T_Task" />
+        <activity android:name=".B1_UserManagement_Notification_Detail" />
+        <activity
+            android:name=".T1_Technician_Detail"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_3_Reports_Bottom_Navigation_LostFound_Detail"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_3_Reports_Bottom_Navigation"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_2_Tasks_Bottom_Navigation"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity android:name=".T1_Technician" />
+        <activity
+            android:name=".A1_4_User_Reporting_Dirty_New"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_Reporting_Clean_New"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_Reporting_Check_Frag_New"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_Reporting_Check_New"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_Reporting_New"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_Edit_Job_Assignment_PDF_EDIT_New"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_Edit_Job_Assignment_New"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_Assign_room_New"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_5_6_NFC_Tag_Write"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_Reporting_Check_Frag_Detail_New"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_Choose"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_Choose_New"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_Assign_Choose_New"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".B1_UserManagement_Image_Upload_Frag_New_MainActivity"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_6_AdminManagement_Room_Status"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".B1_UserManagement_Notification"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".A1_5_3_Room_Cleaning_Period"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_5_4_1_Employee_Evaluation_Detail"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_5_4_Employee_Evaluation"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_1_1_0_Rooms_per_selected_Floor_Tab_Cleaning_Damage"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_1_1_2_3_Selected_Room_Damage_DetailActivity"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_1_1_2_Selected_Room_Damage_Overview_NOT_USED_B_FRAG"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".StarterApplication_Hotel_name_input"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".B1_UserManagement_Report_Damage"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_ExampleItem"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_4_User_DetailActivity"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_1_1_1_1_GetStrings"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_1_1_1_2_Selected_Room_Cleaning_Overview_DetailActivity"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".MenuSettings"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".MenuHelp"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".MenuAbout"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_1_1_1_Selected_Room_Cleaning_Overview_NOT_USED_B_FRAG"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_1_1_Rooms_per_selected_Floor"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_2_Purchase"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_1_RoomManagement_Floor_List"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".B1_UserManagement_Image_Upload"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_5_5_QRAssignment"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".BlankActivity"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_5_AdminManagementSettings"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".A1_AdminManagement"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".B1_UserManagement"
+            android:configChanges="layoutDirection|locale|orientation|screenSize|keyboardHidden"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Hotel"
+            android:launchMode="singleTop">
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            android:stateNotNeeded="true"
+            tools:replace="android:screenOrientation" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.android.fileprovider.photo.hotel"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <!--
+<service android:name="com.parse.fcm.ParseFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        -->
+        <service android:name=".ParseFirebaseMessagingService_custom">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name=".ParsePushBroadcastReceiver_Custom"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.parse.push.intent.RECEIVE" />
+                <action android:name="com.parse.push.intent.DELETE" />
+                <action android:name="com.parse.push.intent.OPEN" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.parse.push.notification_icon"
+            android:resource="@drawable/hotel_new" />
+    </application>
+
+</manifest>
