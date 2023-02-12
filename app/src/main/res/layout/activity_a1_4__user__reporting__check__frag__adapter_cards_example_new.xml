@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="false"
+    app:cardElevation="16dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:layout_marginTop="15dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:id="@+id/lin_layout_card_example_cleaning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="4dp" />
+
+        <ImageView
+            android:id="@+id/image_view1"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:weightSum="100">
+
+            <!--<TextView
+                android:id="@+id/text_view_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_weight="50"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="fill_horizontal"
+                android:text="@string/Clean"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/text_view_deny"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_weight="50"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_gravity="fill_horizontal"
+                android:text="@string/Dirty"
+                android:textSize="25sp"/>-->
+
+            <RelativeLayout
+                android:id="@+id/mRelativeClean"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="50"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="1dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@drawable/circle_green"
+                    android:padding="1dp">
+
+                    <ImageButton
+                        android:id="@+id/save_image"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:clickable="false"
+                        android:background="@drawable/cam_grey_circle_selector"
+                        android:padding="@dimen/cam_content_inset_secondary"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_check_white_24dp"
+                        tools:ignore="ContentDescription" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/mRelativeDirty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="50"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:padding="1dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:background="@drawable/circle_red"
+                    android:padding="1dp">
+
+                    <ImageView
+                        android:id="@+id/discard_image"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:clickable="false"
+                        android:background="@drawable/cam_grey_circle_selector"
+                        android:padding="@dimen/cam_content_inset_secondary"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/ic_clear_white_24dp"
+                        tools:ignore="ContentDescription" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_view_creator"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/text_view_likes"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
